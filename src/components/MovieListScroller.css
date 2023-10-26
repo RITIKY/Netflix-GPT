@@ -1,0 +1,5 @@
+/* Hide the scrollbar track while retaining functionality */
+  
+  .hide-scrollbar-track::-webkit-scrollbar {
+    display: none;
+  }
