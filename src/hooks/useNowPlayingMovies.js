@@ -15,6 +15,7 @@ const useNowPlayingMovies = () => {
       "https://api.themoviedb.org/3/movie/now_playing?api_key=ae5d908c7cf18f1f1808deb1f96cecb6"
     );
     const json = await data.json();
+    // console.log("data",json)
     dispatch(addNowPlayingMovies(json.results));
   };
 

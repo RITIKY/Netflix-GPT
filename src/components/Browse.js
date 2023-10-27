@@ -9,7 +9,6 @@ import useUpcomingMovies from "../hooks/useUpcomingMovies";
 import { useSelector } from "react-redux";
 import GptSearch from "./GptSearch";
 
-
 const Browse = () => {
   const showGptSearch = useSelector((store) => store.browse.showGptSearch);
   useNowPlayingMovies();
